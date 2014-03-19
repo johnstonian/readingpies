@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #F0EFE4;
+}
+
+h1 {
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: -1px;
+	font-size: 50px;
+	color: #5A5A5A;
+}
+
+p { color: #3A3A3A; }
+
+#hover { height: 30px; display: block; margin: 0 auto; }
+
+a {
+color: #58852C;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a#authorize {
+	display: block;
+	background: url(../images/connect.png) no-repeat 0 0;
+	width: 237px;
+	height: 49px;
+	margin: 0 auto;
+}
+
+a#authorize:hover {
+	background-position: 0 -50px;
+}
+
+.connect-box p {
+	font-size: 14px;
+	line-height: 21px;
+	opacity: 0.5;
+	margin: 20px auto 0;
+	width: 400px;
+	text-align: center;
+	font-family:  Georgia, Serif;
+}
+
+.name-box {
+	width: 440px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.name-box h1 {
+	text-align: center;
+	padding: 0 0 20px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	margin-top:30px;
+	font-weight: 200;
+	line-height: 1;
+	letter-spacing: -1px;
+	color: #3A3A3A;
+}
+
+.name-box p {
+	text-align: left;
+	margin: 0 0 20px 0;
+	font-weight: 200;
+	line-height: 1;
+	font-size: 21px;
+	color: #5A5A5A;
+	font-style: italic;
+}
+
+#overviewContainer, #selectedContainer {
+	margin: 0 auto;
+	width: 820px;
+	height: 690px;
+}
+
+#overviewContainer h2, #selectedContainer h2, #highlights h2 { 
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 200;
+	line-height: 1;
+	letter-spacing: -1px;
+	color: #3A3A3A;
+}
+
+p#backToBooks { 
+	line-height: 1;
+	letter-spacing: -1px;
+	padding-top: 8px;
+	padding-left: 8px;
+}
+
+p#backToBooks:hover {
+	color: white;
+}
+div#btbContainer {
+	height: 33px;
+	width: 130px;
+	margin-bottom: 6px;
+}
+
+div#btbContainer:hover {
+	background: #D20;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+div#highlights { display:none; width:800px; margin:0 auto; margin-top: 50px; }
+
+div#highlights p { font-style: italic; background: rgba(255, 255, 0, 0.22); }
+
+div.graph
+{
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	/*border: 4px dashed gainsboro;*/
+}
+
+div.spinner {
+  display: none;
+  position:absolute;
+}
+
+
+div.spinner img {
+position: relative;
+  top: -16px;
+  left: -16px;
+  -webkit-animation: infinite-spinning 1s infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
